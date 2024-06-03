@@ -6,12 +6,12 @@ A simple weather application that displays current weather information based on 
 
 - Fetches current weather data for any city.
 - Displays temperature, humidity, wind speed, and weather conditions.
-- Dynamically changes background color based on weather conditions (sunny, cloudy, rainy, snowy).
+- Dynamically changes background images based on weather conditions (sunny, cloudy, rainy, snowy).
 - User-friendly interface with responsive design.
 
 ## Technologies Used
 
-- HTML5
+- HTML
 - CSS
 - JavaScript 
 - Fetch API
