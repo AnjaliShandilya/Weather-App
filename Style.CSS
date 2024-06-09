@@ -14,7 +14,7 @@
   z-index: -1;
 }
 video {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -100,7 +100,7 @@ outline: none;
   display: flex;
   padding-top: 20px;
   height: 100px;
-  gap: 50px;
+  gap: 25px;
 
 }
 .degre{
@@ -130,20 +130,19 @@ outline: none;
 .other-forcasting{
   display: flex;
   justify-content: space-evenly;
-  background-color: rgba(240, 240, 240,0.30);
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
 }
 
 .day{
   padding: 5px 15px;
-  background-color: rgba(240, 240, 240,0.20);
+  background-color: rgba(240, 240, 240,0.30);
   border-radius: 50px;
   text-align: center;
 }
 .temp{
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
 }
 .weather-forcast{
@@ -151,4 +150,5 @@ outline: none;
   width:150px;
   border-radius: 30px;
   padding: 5px;
+  background-color: rgba(240, 240, 240,0.30);
 }

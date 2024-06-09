@@ -79,8 +79,8 @@ changeVideo(description);
 function changeVideo(weatherDescription) {
   let videoFile;
   switch (weatherDescription.toLowerCase()) {
-      case 'clear sky':
-          videoFile = 'sunny.mp4';
+      case 'haze':
+          videoFile = 'haze.mp4';
           break;
       case 'snow':
           videoFile = 'snowfall.mp4';
@@ -88,7 +88,7 @@ function changeVideo(weatherDescription) {
       case 'rain':
           videoFile = 'rainy.mp4';
           break;
-      case 'clouds':
+      case 'scattered clouds':
           videoFile = 'cloudy.mp4';
           break;
       case 'strom':
