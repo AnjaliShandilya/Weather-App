@@ -22,3 +22,4 @@ A simple weather application that displays current weather information based on 
 2. Click on the "Get Weather" button.
 3. The application will display the current weather information and change the background based on the weather condition.
 
+![Screenshot 2024-06-10 145329](https://github.com/AnjaliShandilya/Weather-App/assets/162983005/ad6a527d-4ea9-4961-a284-2a6db00bf615)
